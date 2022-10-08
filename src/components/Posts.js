@@ -12,7 +12,7 @@ const Posts = ({ posts, loading, totalPosts }) => {
     <ul className='list-group mb-4'>
       {posts.map(post => (
         <li key={post.id} className='list-group-item'>
-          <img src={logo}></img>
+          <img src={logo} />
           {post.title}
         </li>
       ))}
